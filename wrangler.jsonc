@@ -1,0 +1,25 @@
+{
+    "name": "bark-notify",
+    "main": "main.js",
+    "compatibility_date": "2026-03-01",
+    "compatibility_flags": [
+        "nodejs_compat"
+    ],
+    "observability": {
+        "enabled": true
+    },
+    "d1_databases": [
+        {
+            "binding": "database",
+            "database_name": "database",
+            "database_id": "3163e944-5b0e-416b-b412-f3e97c77d73c"
+        }
+    ],
+    "keep_vars": true,
+    "vars": {
+        "ALLOW_NEW_DEVICE": "true",
+        "ALLOW_QUERY_NUMS": "true",
+        "ROOT_PATH": "/",
+        // "BASIC_AUTH": ""
+    }
+}
